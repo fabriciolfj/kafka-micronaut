@@ -1,0 +1,10 @@
+micronaut:
+  server:
+    port: 9090
+  application:
+    name: kafkaConsumer
+netty:
+  default:
+    allocator:
+      max-order: 3
+kafka.bootstrap.servers: localhost:9092
